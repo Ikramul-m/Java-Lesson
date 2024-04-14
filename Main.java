@@ -1,11 +1,8 @@
 
 public class Main {
+    static int age = 22;
+
     public static void main(String[] arguments) {
-
-        int age = 22;
-        age = 24;
-
         System.out.println("I am " + age + " old.");
     }
 }
-
