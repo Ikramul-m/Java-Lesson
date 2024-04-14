@@ -1,9 +1,11 @@
 
 public class Main {
-    static int age;
+    // static int age;
 
     public static void main(String[] arguments) {
-        int age = 24;
-        System.out.println("I am " + age + " old.");
+        int number1 = 5;
+        double number2 = number1;
+
+        System.out.println(number2);
     }
 }
