@@ -3,10 +3,15 @@ public class Main {
     // static int age;
 
     public static void main(String[] arguments) {
-        double number1 = 5;
-        int number2 = (int) number1;
+        int number1 = 12;
+        int number2 = 6;
 
-        System.out.println(number2);
+        System.out.println(number1 + number2);
+
+        System.out.println(number1 - number2);
+
+        System.out.println(number1 * number2);
+
+        System.out.println(number1 / number2);
     }
 }
-
