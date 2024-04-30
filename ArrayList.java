@@ -1,4 +1,3 @@
-import java.util.Arrays;
 import java.util.ArrayList;
 
 class Main {
@@ -12,7 +11,8 @@ class Main {
 
     System.out.println(numbers.get(2));
     numbers.remove(2);
+
+    numbers.set(2,90);
     System.out.println(numbers.toString());
   }
 }
-
