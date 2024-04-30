@@ -7,7 +7,7 @@ class FillArray {
 
         int copyofNumbers[] = Arrays.copyOf(number, number.length);
 
-        Arrays.fill(number, 0);
+        Arrays.fill(number, 3);
 
         System.out.println(Arrays.toString(number));
         System.out.println(Arrays.toString(copyofNumbers));
