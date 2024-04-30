@@ -11,6 +11,8 @@ class Main {
     numbers.add(4);
 
     System.out.println(numbers.get(2));
+    numbers.remove(2);
+    System.out.println(numbers.toString());
   }
 }
 
