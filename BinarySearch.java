@@ -12,6 +12,8 @@ class Main {
         int foundItemIndex = Arrays.binarySearch(vowels, key);
 
         System.out.println(Arrays.toString(vowels));
+
         System.out.println(foundItemIndex);
+
     }
 }
