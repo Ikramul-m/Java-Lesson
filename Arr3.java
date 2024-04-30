@@ -5,7 +5,10 @@ class Main {
 
         char vowels[] = { 'e', 'a', 'o', 'u', 'i' };
 
-        Arrays.sort(vowels);
+        int start = 1;
+        int end = 2;
+
+        Arrays.sort(vowels, start, end);
 
         System.out.println(Arrays.toString(vowels));
 
