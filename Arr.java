@@ -20,7 +20,7 @@ public class Arr {
         s2.rollNo = 2;
         s2.name = "Ifdal";
         s2.marks = 70;
-    
+
         Student s3 = new Student();
         s3.rollNo = 2;
         s3.name = "Antara";
