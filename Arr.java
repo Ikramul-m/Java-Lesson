@@ -25,5 +25,17 @@ public class Arr {
         s3.rollNo = 2;
         s3.name = "Antara";
         s3.marks = 75;
+
+        Student students[] = new Student[3];
+        students[0] = s1;
+        students[1] = s2;
+        students[2] = s3;
+
+        for (int i = 0; i < students.length; i++) {
+            System.out
+                    .println("Name: " + students[i].name + " || " + "Roll No.: " + students[i].rollNo + " || "
+                            + "Marks: "
+                            + students[i].marks);
+        }
     }
 }
