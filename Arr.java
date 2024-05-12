@@ -8,7 +8,7 @@ class Student {
 
 }
 
-public class Main {
+public class Arr {
     public static void main(String[] args) {
 
         Student s1 = new Student();
