@@ -9,6 +9,9 @@ class B extends A {
     public B() {
         System.out.println("in B");
     }
+    public B(int n){
+        System.out.println("in int ");
+    }
 }
 
 public class Inhe {
@@ -16,3 +19,4 @@ public class Inhe {
         B obj = new B();
     }
 }
+
