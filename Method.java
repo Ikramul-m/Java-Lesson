@@ -8,7 +8,7 @@ public class Method {
 
   static void hello(String x, int a) {
     System.out.println("Hello " + x + "!");
-    System.out.println("I'm " + a + " years old.");
+    System.out.println("You are " + a + " years old.");
   }
 
 }
