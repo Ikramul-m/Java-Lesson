@@ -2,11 +2,13 @@ public class Method {
 
   public static void main(String[] args) {
     String name = "Ikramul";
-    hello(name);
+    int age = 24;
+    hello(name, age);
   }
 
-  static void hello(String x) {
+  static void hello(String x, int a) {
     System.out.println("Hello " + x + "!");
+    System.out.println("I'm " + a + " years old.");
   }
 
 }
