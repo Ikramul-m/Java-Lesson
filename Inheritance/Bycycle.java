@@ -1,3 +1,3 @@
-public class Bycycle extends Vehical{
-  
+public class Bycycle extends Vehical {
+
 }
