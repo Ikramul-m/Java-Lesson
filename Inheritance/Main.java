@@ -5,7 +5,7 @@ public class Main {
         car.go();
         cycle.stop();
 
-        System.out.println(car.speed);
-        System.out.println(cycle.speed);
+        System.out.println(car.speed + " km/hr");
+        System.out.println(cycle.speed + " m/sec");
     }
 }
