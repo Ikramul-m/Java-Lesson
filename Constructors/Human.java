@@ -10,4 +10,8 @@ public class Human {
         this.age = age;
         this.weight = weight;
     }
+
+    void eat() {
+        System.out.println(this.name + " is eating");
+      }
 }
