@@ -4,8 +4,8 @@ public class Car {
     String model = "Mustang";
     String color = "red";
     int year = 1969;
-  
-    public String toString(){
-      return make + "\n" + model + "\n" + color + "\n" + year;
+
+    public String toString() {
+        return make + "\n" + model + "\n" + color + "\n" + year;
     }
-  }
+}
