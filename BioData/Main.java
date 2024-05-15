@@ -13,5 +13,14 @@ public class Main {
         System.out.printf("%s was born in %s. He is now %d years old.", youngerUser.name,
                 youngerUser.birthDay.toString(),
                 youngerUser.age());
+
+                
+        User olderUser = new User();
+
+        olderUser.name = "Ahmed Al Daniel";
+        olderUser.birthDay = LocalDate.parse("31-05-1995", formatter);
+
+        System.out.printf("%s was born in %s. She is now %d years old.", olderUser.name, olderUser.birthDay.toString(),
+                olderUser.age());
     }
 }
