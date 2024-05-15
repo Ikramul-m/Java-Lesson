@@ -1,13 +1,13 @@
 // public class Car {
 //   {
-    
+
 //   };
 // }
 
-public class Car extends Vehical{
+public class Car extends Vehical {
 
     @Override
     void go() {
-      System.out.print("The driver is driving the car");
+        System.out.print("The driver is driving the car");
     }
-  }
+}
