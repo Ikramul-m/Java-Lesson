@@ -1,8 +1,8 @@
-public class Car extends Vehicle{
-  
+public class Car extends Vehicle {
+
     @Override
-    public void go(){
-      
-      System.out.println("I'm in car");
+    public void go() {
+
+        System.out.println("I'm in car");
     }
-  }
+}
