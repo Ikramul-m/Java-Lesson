@@ -6,17 +6,19 @@ public class Main {
 
         Scanner sc = new Scanner(System.in);
         StringBuilder str = new StringBuilder(sc.nextLine());
-        System.out.println(str);
+        System.out.println("\nOriginal: " + str);
+        // toggle
+        // PhYsICs -> pHySicS
 
         for (int i = 0; i < str.length(); i++) {
-            // P -> p
-            // check -> alphabet - small, capital
-            boolean flag = true; // true -> capital
+            // check -> alphabet- small or capital
+            boolean flag = true; // true -> cpital
             char ch = str.charAt(i);
+            if (ch == ' ')
+                continue;
             int ascii = (int) ch;
-            if (ascii >= 97) {
+            if (ascii >= 97) // false -> small
                 flag = false;
-            }
 
             if (flag == true) {
                 ascii += 32;
@@ -30,7 +32,9 @@ public class Main {
 
         }
 
-        System.out.println(str);
+        System.out.println();
+
+        System.out.println("Output: " + str);
 
     }
 }
